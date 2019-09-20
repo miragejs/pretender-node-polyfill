@@ -1,5 +1,3 @@
-console.log('before');
-// if (typeof window === "undefined") {
-//   debugger;
-//   global.self = {};
-// }
+if (typeof window === "undefined") {
+  global.self = {};
+}
